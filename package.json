@@ -5,26 +5,32 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers js:babel-core/register --watch"
   },
   "author": "Andrey Savelyev",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer-core": "^5.1.11",
-    "babel-core": "^6.3.15",
-    "babel-loader": "^6.2.0",
+    "babel": "^6.1.18",
+    "babel-core": "^5.8.34",
+    "babel-loader": "^5.4.0",
     "colors": "^1.1.0",
     "css-loader": "^0.14.0",
     "cssnext": "^1.4.0",
     "cssnext-loader": "^1.0.1",
     "csswring": "^3.0.4",
     "doiuse": "^0.3.2",
+    "dom-events": "^0.1.1",
+    "jsdoc": "^3.4.0",
+    "jsdom": "^7.1.1",
+    "minami": "^1.1.1",
+    "mocha-jsdom": "^1.0.0",
     "postcss": "^4.1.8",
     "postcss-loader": "^0.4.1",
     "postcss-nested": "^0.3.1",
     "style-loader": "^0.12.1",
-    "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0",
+    "webpack": "^1.8.11",
+    "webpack-dev-server": "^1.8.2",
     "wordwrap": "1.0.0"
   }
 }
