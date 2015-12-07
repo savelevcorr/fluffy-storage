@@ -15,7 +15,8 @@ module.exports = {
     output: {
         path: require('path').resolve('build'),
         publicPath: '/',
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+        library: 'FluffyStorage'
     },
     module: {
         loaders: [
